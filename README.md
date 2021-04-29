@@ -1,4 +1,4 @@
-# string-keywords
+# Functional Programming: string-keywords
 
 Language: JavaScript
 Interpreter: Node
