@@ -24,7 +24,7 @@ function readFile() { //function was made to read the input file to a list
         });
 
         perLine.on('line', function(line) {
-            contentFile = contentFile.concat(line.match(/[a-zA-Z]+/g)); //could not find another way to read input file into the list without mutation 
+            contentFile = contentFile.concat(line.match(/[a-zA-Z]+/g)); //reads input file into the list with mutation 
         })                                                              
         .on('close', function() {
             readFile2(contentFile);
@@ -48,8 +48,8 @@ function readFile2(contentFile) { //function was made to read the stopwords file
         });
 
         perLine.on('line', function(line) {
-            stopwordsArr = stopwordsArr.concat(line.match(/[a-zA-Z]+/g)); //could not find another way to read input file into the list without mutation 
-        })                                                              //I believe i did not do any other mutations after this line
+            stopwordsArr = stopwordsArr.concat(line.match(/[a-zA-Z]+/g)); //reads input file into the list with mutation 
+        })
         .on('close', function() {
             main(contentFile, stopwordsArr);
         }); 
