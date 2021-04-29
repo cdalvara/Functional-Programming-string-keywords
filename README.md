@@ -1,7 +1,9 @@
 # Functional Programming: string-keywords
 
 Language: JavaScript
+
 Interpreter: Node
+
 Functional programming with mostly recursive functions. Mutation only occurs when reading the input file.
 
 Command Line example: node keyword.js "input=xyz.txt;k=3;output=keywords.txt"
