@@ -1,0 +1,5 @@
+result 5
+battery 4
+lithium 4
+lightweight 3
+hardwearing 1

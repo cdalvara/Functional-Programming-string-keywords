@@ -1,0 +1,29 @@
+preciate second normal form, you must understand the idea of functional dependency. a functional dependency is a relationship between or among attributes. one attribute is functionally dependent on another if the value of the second attribute determine the value of the first attribute. if you know the value of the second attribute, you can determine the value of the first attribute.
+
+in the 2NF, relational must be in 1NF.
+in the second normal form, all non key attributes are fully functional dependent on the primary key
+
+the second normal form states that it should meet all the rules for 1NF and there must be no partial dependences of any of the columns on the primary key
+
+
+for a table to be in the second normal form, it must satisfy two conditions,
+
+the table should be in the first normal form.
+there should be no partial dependency.
+relational database has columns and must meet many rules and conditions. there based many concept. normalization helps understand relationship idea. update is based on many things. relational database contain columns originally. 
+tables have composite keys. composite keys composed of some columns. 
+
+ 
+
+note that relational database can not automatically update columns
+many dependences in relational database 
+a relation has many columns, dependences
+second normal form  is based on the concept of full functional dependency. second normal form applies to relations with composite keys, that is, relations with a primary key composed of two or more attributes. A relation with a singleattribute primary key is automatically in at least 2NF. A relation that is not in 2NF may suffer from the update anomalies.
+
+to be in second normal form, a relation must be in first normal form and relation must not contain any partial dependency. A relation is in 2NF if it has no partial dependency, i.e., no nonprime attribute attributes which are not part of any candidate key is dependent on any proper subset of any candidate key of the table.
+
+second normal form is a normal form used in database normalization. 2NF was originally defined in 1971.
+A relation is in the second normal form if it fulfills the following two requirements,
+
+it is in first normal form.
+it does not have any nonprime attribute that is functionally dependent on any proper subset of any candidate key of the relation. A nonprime attribute of a relation is an attribute that is not a part of any candidate key of the relationship. put simply, a relation is in 2NF if it is in 1NF and every nonprime attribute of the relation is dependent on the whole of every candidate key. note that it does not put any restriction on the nonprime to nonprime attribute dependency. that is addressed in third normal form.

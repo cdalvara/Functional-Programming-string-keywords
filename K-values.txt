@@ -1,0 +1,17 @@
+testcase k
+
+tc1.txt k=2 
+tc2.txt k=3
+tc3.txt k=2
+tc4.txt k=3
+tc5.txt k=4
+tc6.txt k=3
+tc7.txt k=4
+tc8.txt k=3
+tc9.txt k=4
+tc10.txt k=2
+tc11.txt k=1
+tc12.txt k=1
+tc13.txt k=3
+tc14.txt k=4
+tc15.txt k=4

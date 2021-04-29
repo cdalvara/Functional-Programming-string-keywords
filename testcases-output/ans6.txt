@@ -1,0 +1,4 @@
+words 4
+stop 3
+test 3
+hello 1

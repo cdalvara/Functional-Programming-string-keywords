@@ -1,0 +1,6 @@
+bird 3
+sda 3
+Nike 2
+backyard 1
+sad 1
+sing 1
